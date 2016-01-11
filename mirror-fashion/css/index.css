@@ -171,3 +171,34 @@ footer .container{
 	float: left;
 	margin-left: 25px;
 }
+
+.menu-opcoes a:hover{
+	color: #007dc6;
+}
+
+.menu-opcoes a:active{
+	color: #867dc6;
+}
+
+.menu-departamentos ul ul{
+	display: none;
+}
+
+.menu-departamentos li:hover ul{
+	display: block;
+}
+
+.menu-departamentos ul ul li{
+	background: #dcdcdc;
+}
+
+.menu-departamentos li:hover li:before{
+	content: "\272a";
+	padding-right: 3px;
+}
+
+.painel h2:before{
+	content: "\2756";
+	padding-right: 5px;
+	opacity: .4;
+}
