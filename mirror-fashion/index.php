@@ -9,7 +9,19 @@
 		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
 	</head>
 	<body>
-	<?php include("cabecalho.php"); ?>
+		<header class="container">
+			<h1><img src="img/logo.png" alt="Logo da Mirror Fashion"></h1>
+			<p class="sacola">Nenhum item na sacola de compras</p>
+			<nav>
+				<ul class="menu-opcoes">
+					<li><a href="#">Sua Conta</a></li>
+					<li><a href="#">Lista de Desejos</a></li>
+					<li><a href="#">Cartão Fidelidade</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="#">Ajuda</a></li>
+				</ul>
+			</nav>
+		</header>
 		<div class="container destaque">
 			<section class="busca">
 				<h2>Busca</h2>
@@ -142,7 +154,17 @@
 					</li>
 				</ol>
 			</section>
-		</div>		
-	<?php include("rodape.php"); ?>
+		</div>
+		<footer>
+			<div class="container">
+				<img src="img/logo-rodape.png">
+				
+				<ul class="social">
+					<li><a href="https://facebook.com/mirrorfashion">Facebook</a></li>
+					<li><a href="https://twitter.com/mirrorfashion">Twitter</a></li>
+					<li><a href="https://plus.google.com/mirrorfashion">Google+</a></li>
+				</ul>
+			</div>
+		</footer>
 	</body>
  </html>
