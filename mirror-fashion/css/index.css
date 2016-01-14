@@ -8,6 +8,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+	display: block;
 	
 }
 .menu-opcoes ul{
@@ -39,7 +40,7 @@ header{
 
 .menu-opcoes{
 	position: absolute;
-	bottom: 0;
+	bottom: 0; 
 	right: 0;
 }
 

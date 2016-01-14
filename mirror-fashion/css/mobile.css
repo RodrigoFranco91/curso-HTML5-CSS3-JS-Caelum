@@ -2,6 +2,10 @@
 	 width: 96%;
  }
  
+ .sacola{
+	 display:none;
+ }
+ 
  header h1{
 	 text-align: center;
  }
