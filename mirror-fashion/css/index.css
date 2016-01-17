@@ -1,3 +1,26 @@
+.pausado{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: url(../img/play.png);
+	height: 30px;
+	width: 35px;
+	display: block;
+	text-indent: -99999px;
+	text-align: center;
+}
+.pause{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: url(../img/pause.png);
+	height: 30px;
+	width: 35px;
+	display: block;
+	text-indent: -99999px;
+	text-align: center;
+}
+
 .sacola{
 	background: url(../img/sacola.png) no-repeat top right;
 	font-size: 14px;
@@ -30,8 +53,10 @@ body{
 }
 
 .container{
+	position:relative;
 	margin: 0 auto;
 	width: 940px;
+	padding-bottom:30px;
 }
 
 header{
@@ -40,7 +65,7 @@ header{
 
 .menu-opcoes{
 	position: absolute;
-	bottom: 0; 
+	bottom: 30px; 
 	right: 0;
 }
 
@@ -81,6 +106,8 @@ header{
 }
 
 .destaque{
+	padding-top: 30px;
+	position: relative;
 	margin-top: 10px;
 }
 

@@ -21,8 +21,11 @@
 					<li><a href="#">Ajuda</a></li>
 				</ul>
 			</nav>
+
 		</header>
+
 		<div class="container destaque">
+			<a href="#" id="botao-troca-banner" class="pause">pause</a>
 			<section class="busca">
 				<h2>Busca</h2>
 				<form>
@@ -168,5 +171,6 @@
 		</footer>
 		<script src="js/converteMoeda.js"></script>
 		<script src="js/testaConversao.js"></script>
+		<script src="js/trocaBanner.js"></script>
 	</body>
  </html>
