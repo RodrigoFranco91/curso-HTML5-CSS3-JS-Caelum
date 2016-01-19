@@ -92,7 +92,7 @@
 									<label for="cpf">CPF</label>
 									<div class="input-group">
 									<span class="input-group-addon"><span class="glyphicon glyphicon-file"></span></span>
-										<input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+										<input data-mask="999.999.999-99" type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
 									</div>
 								</div>
 								<div class="form-group">
@@ -108,7 +108,7 @@
 									<label for="numero-cartao">Número - CVV</label>
 									<div class="input-group">
 										<span class="input-group-addon"><span class="glyphicon glyphicon-credit-card"></span></span>
-										<input type="text" class="form-control" id="numero-cartao" name="numero-cartao" required>
+										<input data-mask="9999 9999 9999 9999 - 999" type="text" class="form-control" id="numero-cartao" name="numero-cartao" placeholder="0000 0000 0000 - 000" required>
 									</div>
 								</div>
 								<div class="form-group">
@@ -141,6 +141,7 @@
 		</div>
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script src="js/inputmask-plugin.js"></script>
 		<script src="js/converteMoeda.js"></script>
 		<script src="js/testaConversao.js"></script>
 		
