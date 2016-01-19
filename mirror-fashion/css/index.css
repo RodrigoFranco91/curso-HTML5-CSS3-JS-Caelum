@@ -99,7 +99,7 @@
 
 body{
 	color: #333333;
-	font-family: "Lucida Sabs Unicode", "Lucida Grande", sans-serif;
+	font-family: "PT Sans", sans-serif;
 }
 
 .menu-opcoes li{
@@ -198,6 +198,7 @@ header{
 
 .painel h2{
 	font-size: 24px;
+	font-family: "Bad Script", sans-serif;
 	font-weight: bold;
 	text-transform:uppercase;
 	margin-bottom: 10px;

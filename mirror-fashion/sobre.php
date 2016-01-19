@@ -60,5 +60,18 @@
 			<li>Presente em 124 países</li>
 			<li>Mais de um milhão de funcionários em todo o mundo</li>
 		</ul>
+		<div>
+			<h2>Nosso vídeo</h2>
+		</div>	
+		<div class="video">
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/Tb06abHE4hY" frameborder="0" allowfullscreen></iframe>
+		</div>
+				<div>
+			<h2>Nosso endereço</h2>
+		</div>	
+		<div class="video ultimo">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4494814632653!2d-46.63454338443588!3d-23.588207668470734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2c07f61d%3A0x2906890cca41cf6a!2sR.+Vergueiro%2C+3185+-+Liberdade%2C+S%C3%A3o+Paulo+-+SP%2C+01504-001!5e0!3m2!1spt-BR!2sbr!4v1453200671349" 
+			width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
 	</body> 
  </html>

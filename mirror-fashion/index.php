@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-witth">
 		<title>Home - Mirror Fashion</title>
 		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
 	</head>
